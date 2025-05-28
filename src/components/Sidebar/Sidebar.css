@@ -1,14 +1,41 @@
 .sidebar{
     display: flex;
-    width: 300px;
+    max-width: 250px;
     height: 100vh;
     position: fixed;
-    background-color: black;
+    background-color:white;
+    color:black;
     top:0;
     left:0;
     bottom:0;
     right: 0;
     margin-right: 40px;
     margin-top: 50px;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    vertical-align: top;
+    
+   
 
+}
+.sidebar img{
+    height: 30px;
+    width:30px;
+    margin: 0px;
+}
+.home {
+  display: flex;
+  align-items: flex-start;   /* ✅ Aligns items vertically to top */
+  justify-content: flex-start; /* ✅ Optional, aligns items to left */
+  gap: 10px;                 /* ✅ Adds space between img and text */
+  padding: 10px 20px;  
+  vertical-align: top;      /* Optional, for spacing */
+}
+.home p{
+    font-size: 15px;
+    line-height: 30px;
+    width:30px;
+    margin:0px;
+    margin-left: 20px;
 }
