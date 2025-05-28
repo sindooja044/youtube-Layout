@@ -30,9 +30,9 @@
     flex:1;
     height: 45px;
     align-items: center;
-    width: 500px;
-    margin-right:40px;
    
+   
+ 
 }
 
 .mid input{
@@ -40,11 +40,12 @@
     border-style: dotted;
     border-color: gray;
     height:45px;
-    min-width: 500px;
+   min-width: 500px;
     padding-left: 10px;
+    
 }
 .mid .img2{
-    width:40px;
+   
    
     border-radius: 50%;
     border-color: gray;
@@ -54,7 +55,7 @@
     height:30px;
 }
 .mid .img1{
-    height:40px;
+    
     background-color: gainsboro;
     width: 30px;
     margin-right: 30px;
@@ -68,6 +69,7 @@
     height:45px;
     justify-content: space-around;
     align-items: center;
+    flex-shrink: 0;
 }
 
 .end .img1{
