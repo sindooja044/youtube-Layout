@@ -25,7 +25,10 @@ const Navbar = () => {
       <div className="end">
       <img className="img1"src={upload}/>
       <img className="img2" src={youtubeapps}/>
+      <div class="notifications">
       <img className="img3" src={notifications}/>
+      <div className="three">3</div>
+      </div>
       <img className="img4" src={profile}/>
       </div>
     </div>

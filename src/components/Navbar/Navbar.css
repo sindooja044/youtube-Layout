@@ -88,3 +88,16 @@
     width:30px;
 
 }
+.notifications{
+    position: relative;
+}
+.three{
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    right:2px;
+    top:0;
+    padding-right: 3px;
+    padding-left: 3px;
+}

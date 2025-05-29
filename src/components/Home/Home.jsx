@@ -32,7 +32,11 @@ const Home = () => {
   return (
     <div className="container1">
     <div className="main1">
-      <div className="thumb"><img src={thumbnail1}/></div>
+      <div className="thumb">
+        <img src={thumbnail1}/>
+          <div className="time">14:20</div>
+          </div>
+    
       <div className="details">
         <div className="profile"><img src={channe1}/></div>
         <div className="text1">
