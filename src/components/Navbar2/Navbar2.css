@@ -1,0 +1,23 @@
+.img1,
+.img2,
+.img3,
+.img4 {
+  height: 30px;
+  width: 30px;
+}
+
+.img2 {
+  width: 70px;
+  height: auto;
+}
+
+.notifications .three {
+  position: absolute;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  font-size: 10px;
+  top: -5px;
+  right: -5px;
+  padding: 2px 5px;
+}
